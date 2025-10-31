@@ -1,4 +1,4 @@
-# Secret Detection Dataset Processing and Benchmarking
+# Secret Breach Detection in Source Code with Large Language Models
 
 This repository presents a hybrid LLM-based system for secret detection in source code, combining regex-based candidate extraction with contextual classification by fine-tuned large language models. Evaluated on data from 818 GitHub repositories, the approach significantly reduces false positives while maintaining high recall. Fine-tuned LLaMA-3.1 8B and Mistral-7B models achieved F1-scores up to 0.985, outperforming traditional regex methods. The solution enables accurate, open-source, and privacy-preserving secret detection for integration into development workflows.
 
